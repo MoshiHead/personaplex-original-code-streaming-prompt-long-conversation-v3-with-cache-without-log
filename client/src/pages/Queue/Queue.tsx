@@ -170,8 +170,9 @@ const Homepage = ({
               <option key={voice} value={voice}>
                 {voice
                   .replace('.pt', '')
+                  .replace(/^VAR/, 'VARIETY_')
                   .replace(/^NAT/, 'NATURAL_')
-                  .replace(/^VAR/, 'VARIETY_')}
+                  }
               </option>
             ))}
           </select>
