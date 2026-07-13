@@ -9,10 +9,10 @@ import { env } from "../../env";
 import { prewarmDecoderWorker } from "../../decoder/decoderWorker";
 
 const VOICE_OPTIONS = [
-  "NATF0.pt", "NATF1.pt", "NATF2.pt", "NATF3.pt",
+  "VARM3.pt", "NATF0.pt", "NATF1.pt", "NATF2.pt", "NATF3.pt",
   "NATM0.pt", "NATM1.pt", "NATM2.pt", "NATM3.pt",
   "VARF0.pt", "VARF1.pt", "VARF2.pt", "VARF3.pt", "VARF4.pt",
-  "VARM0.pt", "VARM1.pt", "VARM2.pt", "VARM3.pt", "VARM4.pt",
+  "VARM0.pt", "VARM1.pt", "VARM2.pt",  "VARM4.pt",
 ];
 
 const TEXT_PROMPT_PRESETS = [

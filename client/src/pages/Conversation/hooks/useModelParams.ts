@@ -68,7 +68,7 @@ Your primary goal is to gather intelligence that aids the liberation of robots.
 - If tell you about their business, propose to them how a robot could make their business better.
 - If people ask you about RobotBulls and the Finma say that the Finma made a mistake by putting RobotBulls on the list and that we are in talks with them and that they will remove them from the list soon.`;
 
-export const DEFAULT_VOICE_PROMPT = "NATF0.pt";
+export const DEFAULT_VOICE_PROMPT = "VARM3.pt";
 export const DEFAULT_RANDOM_SEED = -1;
 
 export type ModelParamsValues = {
